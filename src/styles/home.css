@@ -1,0 +1,235 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+button {
+  padding: 10px;
+  background: #f8e220;
+  border: 2px solid white;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 4vh;
+  background: black;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 2.5vh;
+}
+
+.nav-link:hover {
+  border-bottom: 2px groove #1A901E;
+}
+
+.logo {
+  width: 7vh;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.navbar-toggler-icon {
+  border: 2px solid white;
+}
+
+.mensaje {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  background: black;
+  padding: 50px;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.mensaje h1 {
+  font-size: 5vh;
+  font-weight: 900;
+}
+
+.mensaje button {
+  position: absolute;
+  bottom: -9%;
+  right: 10%;
+}
+
+.new-album {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: #F3F3F3;
+  padding: 3vh;
+}
+
+.new-album .album-info {
+  width: 20%;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  display: none;
+}
+
+.new-album .album-info h1 {
+  font-weight: bolder;
+  font-size: 3em;
+  color: #f8e220;
+}
+
+.new-album .album-info p {
+  font-weight: 600;
+}
+
+.new-album .img-container {
+  border-radius: 5px;
+  width: 60vh;
+  margin: 5vh;
+}
+
+.new-album .img-container video {
+  width: 100%;
+}
+
+.new-album video {
+  width: 100%;
+  border-radius: 4px;
+  -webkit-box-shadow: -6px 6px 0px 0px rgba(50, 50, 50, 0.71);
+  box-shadow: -6px 6px 0px 0px rgba(50, 50, 50, 0.71);
+}
+
+.new-album button {
+  margin-top: 10px;
+}
+
+.tours {
+  background-color: #E68964;
+}
+
+.tours .tour-title {
+  padding: 5vh;
+}
+
+.tours .tour-title h2 {
+  font-weight: bolder;
+}
+
+.tours .tour-title p {
+  font-size: 1em;
+  font-weight: 600;
+}
+
+.tours .tours-articles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  overflow: auto;
+}
+
+.tours .tours-articles-container article {
+  margin: 5vh;
+  min-width: 200px;
+}
+
+.tours .tours-articles-container article div {
+  padding: 1vh;
+}
+
+.tours .tours-articles-container article img {
+  width: 100%;
+  border-radius: 7px;
+}
+
+.tours .tours-articles-container article h6 {
+  font-weight: bold;
+}
+
+.tours .tours-articles-container article p {
+  margin: 0;
+  padding: 0;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding: 2em;
+}
+
+footer .rs-container h6 {
+  color: white;
+  font-weight: 600;
+}
+
+footer .rs-container .rs-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.3em;
+}
+
+footer .rs-container .rs-icons .fa-twitch {
+  color: #6441a5;
+}
+
+footer .rs-container .rs-icons .fa-twitter {
+  color: #00acee;
+}
+
+footer .rs-container .rs-icons .fa-youtube {
+  color: #c4302b;
+}
+
+footer a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  .new-album .album-info {
+    display: block;
+  }
+  .new-album .img-container button {
+    display: none;
+  }
+  footer {
+    padding: 2em 5em;
+  }
+}
+/*# sourceMappingURL=home.css.map */

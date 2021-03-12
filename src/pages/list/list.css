@@ -1,0 +1,238 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+button {
+  padding: 10px;
+  background: #f8e220;
+  border: 2px solid white;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 4vh;
+  background: black;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 2.5vh;
+}
+
+.nav-link:hover {
+  border-bottom: 2px groove #1A901E;
+}
+
+.logo {
+  width: 7vh;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.navbar-toggler-icon {
+  border: 2px solid white;
+}
+
+section {
+  padding: 3em 0.5em;
+  color: black;
+  background: #e7ebf2;
+}
+
+section .filtro-nav {
+  font-weight: 600;
+}
+
+section .filtro-nav ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 3vw;
+          column-gap: 3vw;
+  list-style: none;
+}
+
+section .filtro-nav li:hover {
+  border-bottom: 2px groove #1A901E;
+  cursor: pointer;
+}
+
+section .articles-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+section .articles-container article {
+  background: #E68964;
+  padding: 0.5em;
+  border-radius: 5px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 2em 0;
+}
+
+section .articles-container img {
+  padding: 2px;
+  width: 40%;
+  border-radius: 10px;
+}
+
+section .articles-container img:hover {
+  border: 2px groove #1A901E;
+}
+
+section .articles-container .info-ticket {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+section .articles-container h4 {
+  font-weight: 600;
+}
+
+section .articles-container .info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-column-gap: 1em;
+          column-gap: 1em;
+}
+
+section .articles-container .textcont {
+  display: none;
+}
+
+section .articles-container button {
+  padding: 3px;
+  font-weight: 600;
+}
+
+.pagination {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-weight: 600;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding: 2em;
+}
+
+footer .rs-container h6 {
+  color: white;
+  font-weight: 600;
+}
+
+footer .rs-container .rs-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.3em;
+}
+
+footer .rs-container .rs-icons .fa-twitch {
+  color: #6441a5;
+}
+
+footer .rs-container .rs-icons .fa-twitter {
+  color: #00acee;
+}
+
+footer .rs-container .rs-icons .fa-youtube {
+  color: #c4302b;
+}
+
+footer a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+}
+
+@media only screen and (min-width: 700px) {
+  section {
+    padding: 3em 2em;
+  }
+  section .articles-container {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .articles-container img {
+    width: 40%;
+  }
+  section .articles-container .textcont {
+    display: block;
+  }
+  section .articles-container button {
+    padding: 5px;
+  }
+  footer {
+    padding: 2em 5em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  section .articles-container {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  section .articles-container img {
+    width: 30%;
+  }
+  section .articles-container .textcont {
+    display: block;
+  }
+}
+/*# sourceMappingURL=list.css.map */

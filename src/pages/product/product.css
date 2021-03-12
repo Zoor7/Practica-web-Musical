@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Montserrat Alternates', sans-serif;
+}
+
+button {
+  padding: 10px;
+  background: #f8e220;
+  border: 2px solid white;
+  font-weight: 600;
+  border-radius: 4px;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  padding: 4vh;
+  background: black;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.nav-link {
+  color: white !important;
+  font-size: 2.5vh;
+}
+
+.nav-link:hover {
+  border-bottom: 2px groove #1A901E;
+}
+
+.logo {
+  width: 7vh;
+  position: absolute;
+  top: 5%;
+  left: 8%;
+}
+
+.navbar-toggler-icon {
+  border: 2px solid white;
+}
+
+section {
+  padding: 1em 0.5em;
+  background: #f2f7f8;
+}
+
+section .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 10px;
+  padding: 1em;
+  border: 1px groove #1A901E;
+}
+
+section .container video {
+  width: 100%;
+  border-radius: 10px;
+}
+
+section .container .info {
+  border: 1px groove #1A901E;
+  margin: 10px 0;
+  border-radius: 10px;
+  padding: 1.5em;
+}
+
+section .container .info .locate {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+section .container .info .locate h4 {
+  font-weight: 600;
+}
+
+section .container .info .locate h6 {
+  font-weight: 600;
+}
+
+section .container .info .disponible {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: 600;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 10px 0;
+}
+
+section .container .info .disponible i {
+  color: red;
+}
+
+section .container .info .disponible p {
+  margin-left: 5px;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+section .container .info .description {
+  margin: 10px 0;
+}
+
+section .container .info .price {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-weight: bolder;
+  font-size: 2em;
+}
+
+section .container .info .book {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+section .container .info .book i {
+  color: red;
+  font-size: 22px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+}
+
+footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  background-color: black;
+  padding: 2em;
+}
+
+footer .rs-container h6 {
+  color: white;
+  font-weight: 600;
+}
+
+footer .rs-container .rs-icons {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 1.3em;
+}
+
+footer .rs-container .rs-icons .fa-twitch {
+  color: #6441a5;
+}
+
+footer .rs-container .rs-icons .fa-twitter {
+  color: #00acee;
+}
+
+footer .rs-container .rs-icons .fa-youtube {
+  color: #c4302b;
+}
+
+footer a {
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  color: white;
+}
+
+@media only screen and (min-width: 900px) {
+  .container {
+    width: 40%;
+  }
+  footer {
+    padding: 2em 5em;
+  }
+}
+/*# sourceMappingURL=product.css.map */

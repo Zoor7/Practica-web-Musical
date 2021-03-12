@@ -1,0 +1,123 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Montserrat Alternates', sans-serif
+
+button
+    padding: 10px
+    background: rgba(248, 226, 32, 1)
+    border: 2px solid white
+    font-weight: 600
+    border-radius: 4px
+
+
+header
+    display: flex
+    justify-content: flex-end
+    padding: 4vh
+    background: black
+    align-items: flex-start
+.nav-link
+    color: white !important
+    font-size: 2.5vh
+    &:hover
+        border-bottom: 2px groove #1A901E
+        
+        
+.logo
+    width: 7vh
+    position: absolute
+    top: 5%
+    left: 8%
+
+.navbar-toggler-icon
+    border: 2px solid white
+
+//----------------FIN HEADER
+
+section
+    padding: 1em 0.5em
+    background: #f2f7f8
+    .container
+        display: flex
+        flex-direction: column
+        justify-content: center
+        border-radius: 10px
+        padding: 1em
+        border: 1px groove #1A901E
+        
+        video
+            width: 100%
+            border-radius: 10px
+        .info
+            border: 1px groove #1A901E
+            margin: 10px 0
+            border-radius: 10px
+            padding: 1.5em
+            .locate
+                display: flex
+                justify-content: space-between
+                align-items: center
+                h4
+                    font-weight: 600
+                h6
+                    font-weight: 600
+            .disponible
+                display: flex
+                font-weight: 600
+                align-items: center
+                margin: 10px 0
+
+                i
+                    color: red
+                p   
+                    margin-left: 5px
+                    margin-top: auto
+                    margin-bottom: auto
+            .description
+                margin: 10px 0
+            .price
+                display: flex
+                font-weight: bolder
+                font-size: 2em
+            .book
+                display: flex
+                justify-content: space-between
+                i
+                    color: red
+                    font-size: 22px
+                    align-self: center
+
+        
+//--------------------FOOTER
+footer
+    display: flex
+    justify-content: space-between
+    background-color: black
+    padding: 2em
+    .rs-container
+        h6
+            color: white
+            font-weight: 600
+        .rs-icons
+            display: flex
+            justify-content: space-between
+            font-size: 1.3em
+            .fa-twitch
+                color: #6441a5
+            .fa-twitter
+                color: #00acee
+            .fa-youtube
+                color: #c4302b
+    a
+        align-self: center
+        color: white
+//------------------FIN
+
+
+@media only screen and (min-width: 900px) 
+    .container
+        width: 40%
+    footer
+        padding: 2em 5em

@@ -1,0 +1,154 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Montserrat Alternates', sans-serif
+
+button
+    padding: 10px
+    background: rgba(248, 226, 32, 1)
+    border: 2px solid white
+    font-weight: 600
+    border-radius: 4px
+
+
+header
+    display: flex
+    justify-content: flex-end
+    padding: 4vh
+    background: black
+    align-items: flex-start
+.nav-link
+    color: white !important
+    font-size: 2.5vh
+    &:hover
+        border-bottom: 2px groove #1A901E
+        
+        
+.logo
+    width: 7vh
+    position: absolute
+    top: 5%
+    left: 8%
+
+.navbar-toggler-icon
+    border: 2px solid white
+.mensaje
+    position: relative
+    display: flex
+    color: white
+    background: black
+    padding: 50px
+    justify-content: space-around
+
+    h1
+        font-size: 5vh
+        font-weight: 900
+   
+
+    button
+        position: absolute
+        bottom: -9%
+        right: 10%
+
+.new-album
+    display: flex
+    flex-direction: row
+    justify-content: center
+    background: #F3F3F3
+    padding: 3vh
+    .album-info
+        width: 20%
+        align-self: center
+        display: none
+        h1 
+            
+            font-weight: bolder
+            font-size: 3em
+            color: rgba(248, 226, 32, 1)
+        p
+            font-weight: 600
+
+    .img-container
+        border-radius: 5px
+        width: 60vh
+        margin: 5vh
+        video
+            width: 100%
+                
+
+
+
+    video
+        width: 100%
+        border-radius: 4px
+        -webkit-box-shadow: -6px 6px 0px 0px rgba(50, 50, 50, 0.71)
+        -moz-box-shadow: -6px 6px 0px 0px rgba(50, 50, 50, 0.71)
+        box-shadow: -6px 6px 0px 0px rgba(50, 50, 50, 0.71)
+    button
+        margin-top: 10px
+
+.tours
+
+    background-color: #E68964
+    .tour-title
+        padding: 5vh
+        h2
+            font-weight: bolder
+        p   
+            font-size: 1em
+            font-weight: 600
+
+    .tours-articles-container
+        display: flex
+        flex-direction: row
+        overflow: auto
+        article
+            margin: 5vh
+            min-width: 200px
+            div
+                padding: 1vh
+            img
+                width: 100%
+                border-radius: 7px
+            h6
+                font-weight: bold
+            p
+                margin: 0
+                padding: 0
+footer
+    display: flex
+    justify-content: space-between
+    background-color: black
+    padding: 2em
+    .rs-container
+        h6
+            color: white
+            font-weight: 600
+        .rs-icons
+            display: flex
+            justify-content: space-between
+            font-size: 1.3em
+            .fa-twitch
+                color: #6441a5
+            .fa-twitter
+                color: #00acee
+            .fa-youtube
+                color: #c4302b
+    a
+        align-self: center
+        color: white
+
+
+@media only screen and (min-width: 900px) 
+    .new-album
+        .album-info
+            display: block
+        .img-container
+            button
+                display: none
+    footer
+        padding: 2em 5em
+        
+
+        

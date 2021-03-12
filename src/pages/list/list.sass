@@ -1,0 +1,146 @@
+*
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: 'Montserrat Alternates', sans-serif
+
+button
+    padding: 10px
+    background: rgba(248, 226, 32, 1)
+    border: 2px solid white
+    font-weight: 600
+    border-radius: 4px
+
+
+header
+    display: flex
+    justify-content: flex-end
+    padding: 4vh
+    background: black
+    align-items: flex-start
+.nav-link
+    color: white !important
+    font-size: 2.5vh
+    &:hover
+        border-bottom: 2px groove #1A901E
+        
+        
+.logo
+    width: 7vh
+    position: absolute
+    top: 5%
+    left: 8%
+
+.navbar-toggler-icon
+    border: 2px solid white
+
+//----------------FIN HEADER
+
+section
+    padding:  3em 0.5em
+    color: black
+    background: #e7ebf2
+    .filtro-nav
+        font-weight: 600
+        ul
+            display: flex
+            column-gap: 3vw
+            list-style: none
+        li:hover
+            border-bottom: 2px groove #1A901E
+            cursor: pointer
+    .articles-container
+        display: flex
+        flex-direction: column
+        article
+            background: #E68964
+            padding: 0.5em
+            border-radius: 5px
+            width: 100%
+            display: flex
+            margin: 2em 0
+        img
+            padding: 2px
+            width: 40%
+            border-radius: 10px
+            &:hover
+                border: 2px groove #1A901E
+        .info-ticket
+            display: flex
+            flex-direction: column
+            justify-content: center
+            margin-left: auto
+            margin-right: auto
+            width: 50%
+        h4
+            font-weight: 600
+        .info
+            display: flex
+            flex-direction: row
+            column-gap: 1em
+        .textcont
+            display: none
+        button
+            padding: 3px
+            font-weight: 600
+
+.pagination
+    display: flex
+    justify-content: center
+    font-weight: 600
+
+            
+
+//--------------------FOOTER
+footer
+    display: flex
+    justify-content: space-between
+    background-color: black
+    padding: 2em
+    .rs-container
+        h6
+            color: white
+            font-weight: 600
+        .rs-icons
+            display: flex
+            justify-content: space-between
+            font-size: 1.3em
+            .fa-twitch
+                color: #6441a5
+            .fa-twitter
+                color: #00acee
+            .fa-youtube
+                color: #c4302b
+    a
+        align-self: center
+        color: white
+//------------------FIN
+
+
+@media only screen and (min-width: 700px) 
+    section
+        padding: 3em 2em
+
+        .articles-container
+            width: 100%
+            margin-left: auto
+            margin-right: auto
+            img
+                width: 40%
+            .textcont
+                display: block
+            button
+                padding: 5px
+
+    footer
+        padding: 2em 5em
+@media only screen and (min-width: 1200px) 
+    section
+        .articles-container
+            width: 80%
+            margin-left: auto
+            margin-right: auto
+            img
+                width: 30%
+            .textcont
+                display: block
